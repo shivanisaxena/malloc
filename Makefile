@@ -30,7 +30,7 @@ SRC		= malloc.c		\
 
 OBJ		= $(SRC:.c=.o)
 
-CFLAGS		+= -O3 -Wall -Wextra -fPIC -shared -I .
+CFLAGS		+= -O0 -ggdb -Wall -Wextra -fPIC -shared -I .
 
 CC		= gcc
 
